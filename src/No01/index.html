@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+    <title>生工161班级-首页</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+
+    <script>
+        // $(document).ready(function () {
+        // 判断终端
+        function checkMobile() {
+            let isMobile = navigator.userAgent.match(/android|iphone|ipad|ipod/i);
+            // console.log(isMobile)
+            if (isMobile) {
+                return true;
+            }
+        }
+        // 移动设备
+        if (checkMobile()) {
+            document.location.href = 'http://banmao999.gitee.io/sg161-album-h5';
+        }
+        // })
+    </script>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/animate.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
+
+</head>
+
+<body>
+
+    <!-- 头部版心 -->
+    <div class="core" id="headNav">
+        <!-- 头部 -->
+        <header>
+            <div class="logo"><a href="http://www.gzhu.edu.cn/" target="_blank"><img src="./images/logo.png" alt="广州大学"
+                        title="广州大学官网"></a></div>
+            <div class="webName">生工161小站</div>
+            <!-- 导航栏 -->
+            <div class="nav">
+                <ul>
+                    <li><a href="./index.html" class="indexPage">首页</a></li>
+                    <li class="person"><a href="javascript:">个人</a></li>
+                    <li><a href="javascript:" class="dorm">宿舍</a></li>
+                    <li><a href="javascript:" class="myPro">我的项目</a></li>
+                    <!-- <li><a class="loginPic">&nbsp;</a> </li> -->
+                    <li><a href="javascript:" class="login">立即登陆</a></li>
+                </ul>
+                <!-- 宿舍展开 -->
+                <div class="roomNo">
+                    <dl>
+                        <dt>女生宿舍</dt>
+                        <a href="javascript:">
+                            <dd>501</dd>
+                        </a>
+                        <a href="javascript:">
+                            <dd>502</dd>
+                        </a>
+                        <dt>男生宿舍</dt>
+                        <a href="javascript:">
+                            <dd>706</dd>
+                        </a>
+                        <a href="javascript:">
+                            <dd>707</dd>
+                        </a>
+                        <a href="javascript:">
+                            <dd>708</dd>
+                        </a>
+                        <a href="javascript:">
+                            <dd>709</dd>
+                        </a>
+                        <a href="javascript:">
+                            <dd>710</dd>
+                        </a>
+                    </dl>
+                    <div class="triangle"></div>
+                </div>
+                <!-- 项目展开 -->
+                <div class="mine">
+                    <dl>
+                        <dt>示例</dt>
+                        <a href="./bilibili/bilibili.html" target="_blank">
+                            <dd>仿哔哩哔哩</dd>
+                        </a>
+                        <a href="javascript:">
+                            <dd>仿京东</dd>
+                        </a>
+                    </dl>
+                    <div class="triangle"></div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- 旁导航 -->
+    <div class="sideNav out_sideNav" id="out_sideNav">
+        <div class="sideNav in_sideNav">
+            <ul>
+                <a href="javascript:">
+                    <li>对暗号</li>
+                </a>
+                <a href="javascript:">
+                    <li>求支持</li>
+                </a>
+                <a href="javascript:">
+                    <li>关于网站</li>
+                </a>
+                <a href="javascript:">
+                    <li>TOP</li>
+                </a>
+            </ul>
+        </div>
+        <div class="showBtn">摸<br>摸<br>我<br>ฅ'ω'ฅ</div>
+
+    </div>
+    <!-- 求支持 -->
+    <div class="support">
+        <div class="close"></div>
+        <button class="wxBtn current">微信</button><button class="zfbBtn">支付宝</button>
+        <h1>打赏口饭吃吧</h1>
+        <img src="./images/zfbPay.jpg" alt="" id="zfbImg">
+        <img src="./images/wxPay.jpg" alt="" id="wxImg">
+    </div>
+    <!-- 关于网站 -->
+    <div class="about">
+        <div class="close"></div>
+        <h1>关于这个网站</h1>
+        <p>这是一个部署在Github/Gitee上的网站<br>
+            一般来说是可以永久保存的<br>
+            由于没有购买服务器，所以只有静态网页<br>
+            但是保存图片之类的，还是绰绰有余了<br>
+            如果对网站有可行的建议或者发现了bug<br>
+        </p>
+        <p style="margin-top: 0; margin-left: 70px; float: left; text-align: left;">
+            欢迎关注公众号<br>『半猫Coder』进行反馈
+        </p>
+        <img src="./images/doudou.png" alt="">
+    </div>
+
+
+    <!-- 内容版心 -->
+    <div class="core">
+        <!-- 内容 -->
+        <div class="main">
+            <!-- 轮播图 -->
+            <div class="showPic">
+                <!-- 左右箭头 -->
+                <a href="javascript:" class="arrow_L">&lt;</a>
+                <a href="javascript:" class="arrow_R">&gt;</a>
+                <!-- 图片播放区域 -->
+                <ul>
+                    <li><img src="./upload/xuexiao/xuexiao (3).jpg" alt=""></li>
+                    <li><img src="./upload/xuexiao/xuexiao (12).jpg" alt=""></li>
+                    <li><img src="./upload/xuexiao/xuexiao (18).jpg" alt=""></li>
+                    <li><img src="./upload/xuexiao/xuexiao (21).jpg" alt=""></li>
+
+                </ul>
+                <!-- 小圆圈 -->
+                <ol class="circle">
+
+                </ol>
+            </div>
+            <!-- 留言板 -->
+            <div class="farewellMes" id="farewell">
+                <div class="insideBox">
+                    <div class="message">
+                        <h3 style="margin-left: 25px; font-size: 45px;color: #f06292">临别赠言</h3>
+                    </div>
+                    <div class="message" v-for="item in info">
+                        <h3>{{item.name}}</h3>
+                        <p>{{item.message}}</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 展示风景 -->
+            <div class="showSchool">
+                <!-- 风景导航栏 -->
+                <div class="scenNav">
+                    <ul>
+                        <li><a class="current" href="javascript:">在校园</a></li>
+                        <li><a href="javascript:">广美的钟声</a></li>
+                        <li><a href="javascript:">澳门的旅途</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="javascript:">那些人儿</a></li>
+                        <li><a href="javascript:">不知道放什么了</a></li>
+                    </ul>
+                </div>
+                <!-- 第一批风景 -->
+                <div class="scen scenNo1">
+                    <ul>
+                        <li>
+                            <img src="./upload/xuexiao/xuexiao (4).jpg" alt="">
+                            <div>
+                                <h1>钟楼</h1><br>
+                                <p>
+                                    晚上，带着一身疲惫从图书馆缓缓走出，来到这片广场上，有时是一片寂静，有时是一片欢闹——轮滑社的社员在练习。而始终不变的，是那座安静的钟楼。
+                                </p>
+                                <p>
+                                    在夜晚，你可以看到绿色和红色的荧光闪耀，沉默的指向昭示着归去的急切。现在，只想回去宿舍洗个澡，躺在床上睡大觉。
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/xuexiao/xuexiao (6).jpg" alt="">
+                            <div>
+                                <h1>林间小路</h1><br>
+                                <p>
+                                    这条小路很隐蔽，就像哈利波特里国王十字火车站的9¾站台一样隐蔽。
+                                </p>
+                                <p>
+                                    你记得它在哪里吗？
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/xuexiao/xuexiao (24).jpg" alt="" style="margin-left: 200px;">
+                            <div style="width: 410px">
+                                <h1>晨起·湖边</h1><br>
+                                <p>
+                                    严禁鱼游泳！
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/xuexiao/xuexiao (26).jpg" alt="">
+                            <div style="width: 410px">
+                                <h1>日昳·光影</h1><br>
+                                <p>
+                                    在教室昏昏欲睡
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/xuexiao/xuexiao (25).jpg" alt="">
+                            <div style="width: 410px">
+                                <h1>日暮·对岸</h1><br>
+                                <p>
+                                    点外卖了吗
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/xuexiao/xuexiao (18).jpg" alt="">
+                            <div style="width: 500px;">
+                                <h1 style="font-size: 60px;">夕沉·宿舍的阳台</h1><br>
+                                <p>
+                                    “天色将晚，去哪吃？”
+                                </p>
+                                <p>
+                                    “商中还是菊苑？”
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/xuexiao/xuexiao (10).jpg" alt="">
+                            <img src="./upload/xuexiao/xuexiao (11).jpg" alt="">
+                            <div style="width: 350px;">
+                                <h1 style="font-size: 60px;">是谁！？</h1><br>
+                                <p>
+                                    天黑了，你怎么还在实验室？
+                                </p>
+                            </div>
+                        </li>
+                        <li class="plantLi">
+                            <img src="./upload/xuexiao/xuexiao (22).jpg" alt="" style="width: 500px" id="plant">
+                            <div class="zhezhao">
+                                <p class="noSelect" unselectable="on">点击之后，有恐怖的东西噢</p>
+                            </div>
+                            <img src="./upload/xuexiao/xuexiao (23).jpg" alt="" style="width: 500px" id="badPlant">
+                            <div class="innerD" style="width: 500px">
+                                <h1>茁壮成长</h1><br>
+                                <p>
+                                    小小的幼苗在长大
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 第二批风景 -->
+                <div class="scen scenNo2">
+                    <ul>
+                        <li>
+                            <img src="./upload/guangmei/guangmei (1).jpg" alt="">
+                            <div style="width: 500px">
+                                <h1>四个花瓶</h1><br>
+                                <p>
+                                    应该不少人看过广美的毕业展吧，票圈里最常见的就是这四个花瓶了
+                                </p>
+                                <p>
+                                    这该叫花瓶吗？说盆栽好像也不大对。艺术，好看就行了
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/guangmei/guangmei (2).jpg" alt="">
+                            <img src="./upload/guangmei/guangmei (3).jpg" alt="">
+                            <div style="width: 400px">
+                                <h1>雕刻表情包</h1><br>
+                                <p>
+                                    在毕业展馆旁边的一个仓库里，还有一个雕刻展
+                                </p>
+                                <p>
+                                    其它我都不大记得了，不过这四个表情包是真的传神
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/guangmei/guangmei (4).jpg" alt="">
+                            <img src="./upload/guangmei/guangmei (5).jpg" alt="">
+                            <div style="width: 400px">
+                                <h1>还是表情包</h1><br>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/guangmei/guangmei (6).jpg" alt="">
+                            <div style="width: 500px">
+                                <h1>不知名建筑模型</h1><br>
+                                <p>
+                                    一个居家模型，很好看，如果能住进去就好啦
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 第三批风景 -->
+                <div class="scen scenNo3">
+                    <ul>
+                        <li>
+                            <img src="./upload/aomen/aomen (3).jpg" alt="">
+                            <div style="width: 650px">
+                                <h1>大三巴牌坊</h1><br>
+                                <p>
+                                    400多年前，葡萄牙人侵占了澳门，也把天主教带到了澳门。1562年，葡萄牙人历经数年，在澳门建起了这座教堂，取名“圣保禄”教堂。葡语“圣保禄”发音接近粤语中的“三巴”，所以也称“大三巴教堂”。后来，教堂两次毁于火灾。1602年，圣保禄教堂再次重建，历经35年于1637年完工。1835年的一场大火又把教堂烧毁，只剩下耗资3万两白银的前壁，这就成了今天的大三巴牌坊。
+                                </p>
+                                <p>
+                                    鸦片，最早就是从大三巴下的港口，由葡萄牙人输入中国的，平均每年多达2万箱。直至1946年，澳门吸食鸦片还算合法。鸦片战争后，葡萄牙人追随列强，以武力超过以大三巴为界的葡人居民区，向北扩展，占领整个澳门半岛，开始对澳门实行殖民统治，还成为英国侵华的指挥所在基地。
+                                </p>
+                                <p>
+                                    离大三巴不远的花王堂街，曾是著名的“猪仔街”，沿街有300多家贩卖华工的馆所。当时的澳门，有数万外国人专门从事人口买卖。他们采取诱骗、绑架等手段，将华工强制买卖输出，很多人死于海上。1922年5月29日，葡军在大三巴下公然枪杀70多名中国人，伤100多人。
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/aomen/aomen (4).jpg" alt="">
+                            <div>
+                                <h1 style="font-size: 50px;">屹立的大三巴</h1><br>
+                                <p>
+                                    “给岁月以文明，而不是给文明以岁月”
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/aomen/aomen (6).jpg" alt="">
+                            <div style="width: 500px">
+                                <h1>岁月静好</h1><br>
+                                <p>
+                                    鸽子与白云，恰如其分的感觉
+                                </p>
+                                <br>
+                                <p>
+                                    远处造型奇特的建筑，懂的都懂
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/aomen/aomen (7).jpg" alt="">
+                            <img src="./upload/aomen/aomen (8).jpg" alt="">
+                            <div style="width: 400px">
+                                <h1>教堂里</h1><br>
+                                <p>
+                                    对于宗教，我向来不敢苟同。曾经它们存在的时代中，底层人民的苦难太多，往往需要宗教来作精神依托。而我至今仍记得历史老师的那句话，“宗教是为巩固王权而存在的”，而现在，宗教如果与科学相背离，反智主义的浪潮会扑食人类累计至今的硕果。
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/aomen/aomen (1).jpg" alt="">
+                            <div style="width: 500px">
+                                <h1>威尼斯人酒店</h1><br>
+                                <p>
+                                    人造蓝天
+                                </p>
+                                <p>
+                                    很有震撼力的室内布景，身处其中，头顶的天空，脚边的流水，甚至水中的扁舟，都让人有一种置身室外的错觉
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/aomen/aomen (2).jpg" alt="">
+                            <div style="margin-right: 200px">
+                                <h1>酒店壁画</h1><br>
+                                <p>
+                                    抬头看真的挺费劲
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 第四批风景 -->
+                <div class="scen scenNo4">
+                    <ul>
+                        <li>
+                            <img src="./upload/shixiong/shixiong.jpg" alt="" style="margin-left: 100px;" !important>
+                            <div style="width: 500px" !important>
+                                <h1>师兄</h1><br>
+                                <p style="width: 500px" !important>
+                                    你拿着相机看风景，看风景的人拿着手机在看你。
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/yiming/yiming (1).jpg" alt="">
+                            <div>
+                                <h1>在睡觉</h1><br>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/yiming/yiming (2).jpg" alt="">
+                            <div>
+                                <h1>又在睡觉</h1><br>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 第五批风景 -->
+                <div class="scen scenNo5">
+                    <ul>
+                        <li>
+                            <img src="./upload/others/others (7).webp" alt="">
+                            <div style="width: 500px">
+                                <h1>辉夜和白银</h1><br>
+                                <p>
+                                    不容易啊不容易（流下了欣慰的泪水
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/others/others (6).jpg" alt="">
+                            <div style="width: 400px">
+                                <h1>糖豆肌肉人</h1><br>
+                                <p>
+                                    啊 是窒息的感觉
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/others/others (3).jpg" alt="">
+                            <div style="width: 500px">
+                                <h1>狼爱上了兔子</h1><br>
+                                <p>
+                                    哈鲁和雷格西
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/others/others (5).jpg" alt="" style="width: 750px">
+                            <div>
+                                <h1>春宵苦短 少女前进吧！</h1><br>
+                                <p>
+                                    很好看，很有汤浅风格
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./upload/others/others (1).jpg" alt="">
+                            <div style="width: 500px">
+                                <h1>豆子和建勋</h1><br>
+                                <p>
+                                    想喝红豆奶茶了
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 音乐插件 -->
+        <div class="audio">
+            <audio src="./audio/Memories of Love.mp3" autoplay="autoplay" controls="controls" loop="loop"></audio>
+        </div>
+    </div>
+
+
+    <!-- 尾部 -->
+    <footer>
+        <div class="core">
+            <div class="copyright">
+                <p>地址：广州大学城广州大学生活区B15-707&nbsp;&nbsp;&nbsp;&nbsp;邮编：510280&nbsp;&nbsp;&nbsp;&nbsp;网络:
+                    <a href="https://gitee.com/banmao999" target="_blank"> gitee.com/banmao999 </a><br>
+                    粤ICP备 &nbsp;&nbsp;&nbsp;&nbsp; 京公网安备<br></p>
+                <span><a href="https://gitee.com/banmao999" target="_blank">Gitee</a></span>
+                &nbsp;&nbsp;
+                <span>新浪微博</span>
+                <p>&nbsp;</p>
+                <p style="font-size: 20px;">Author:&nbsp;王正宇&nbsp;&nbsp;&nbsp;&nbsp;©2020</p>
+            </div>
+
+            <span id="busuanzi_container_page_pv">
+                本文总阅读量<span id="busuanzi_value_page_pv"></span>次
+            </span>
+        </div>
+    </footer>
+
+    <script async src="./js/busuanzi.pure.mini.js"></script>
+    <script src="./js/vue/vue.js"></script>
+    <script src="./js/vue/c-template.js"></script>
+    <script src="./js/vue/farewellData.js"></script>
+</body>
+
+</html>
